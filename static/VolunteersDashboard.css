@@ -1,0 +1,30 @@
+.Volunteer-Dashboard-Page-h1{
+    text-align: center;
+}
+
+.Vol-Dashboard-MainContent{
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+}
+
+.Vol-Dash-Ele1-Img{
+    height: 18vh;
+    padding-right: 1%;
+}
+
+.Vol-Dash-MainContent-Element1{
+    display: flex;
+    align-items: center;
+    padding: 7%;
+}
+
+.Vol-Dash-MainContent-Ele1-text{
+    width: 45vh;
+}
+
+.Vol-Dash-Ele1-Img , .Vol-Dash-Ele2-Img , .Vol-Dash-Ele3-Img{
+    height: 12vh;
+    padding-right: 5%;
+}
+

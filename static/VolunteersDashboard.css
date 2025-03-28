@@ -28,3 +28,8 @@
     padding-right: 5%;
 }
 
+.Vol-Dash-Ele1-aTag{
+    text-decoration: none;
+    color: black;
+    display: flex;
+}

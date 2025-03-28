@@ -91,3 +91,7 @@ button:hover {
 button.register:active {  
     transform: scale(0.95); 
 }  
+
+.UpCommingEvents-aTag{
+    text-decoration: none;
+}

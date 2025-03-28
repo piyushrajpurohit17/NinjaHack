@@ -1,0 +1,153 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+/* Hero Banner */
+.hero-banner {
+    background-image: url('heroImage.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 10px 20px;
+}
+
+.hero-banner .content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-banner .content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero-banner .content button {
+    background-color: #ffd800;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-banner .content button:hover {
+    background-color: #e6c700;
+}
+
+/* Vision Section */
+.vision-section {
+    text-align: center;
+    padding: 10px 20px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+.vision-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+
+.impact-stats {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #f9f9f9;
+    padding: 20px 0;
+}
+
+.impact-stats .stat {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+.impact-stats .stat h3 {
+    color: #ffd800;
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+/* Programs Section */
+.programs-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.program {
+    display: inline-block;
+    margin: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.program img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Success Stories */
+.success-stories {
+    text-align: center;
+    padding: 40px 20px;
+    background: #f9f9f9;
+}
+
+.story {
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 70%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.call-to-action {
+    text-align: center;
+    padding: 40px 20px;
+    background: #ffd800;
+    color: white;
+}
+
+.call-to-action button {
+    background: white;
+    color: #ffd800;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.call-to-action button:hover {
+    background: #e6c700;
+    color: white;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+}

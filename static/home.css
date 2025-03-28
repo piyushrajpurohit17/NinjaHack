@@ -5,9 +5,18 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* .about_us{
+    padding: 0% 5%;
+} */
+
 body {
     background-color: #f9f5f5;
 }
+
+.HomePage-Loginbtn{
+    text-decoration: none;
+}
+
 header {
     display: flex;
     justify-content: space-between;

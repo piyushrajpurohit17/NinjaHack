@@ -15,7 +15,12 @@
     backdrop-filter: blur(5px);
     opacity: 8000;
 }
-
+h2{
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    font-size:;
+}
 .container {
     display: flex;
     justify-content: center;
@@ -95,17 +100,7 @@
     text-decoration: none;
 }
 
-.submit-btn {
-    width: 100%;
-    padding: 12px;
-    background: #084cfc;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-}
+
 
 .loginPage-signin-btn{
     border: none;

@@ -1,0 +1,107 @@
+* {  
+    box-sizing: border-box; /* Ensures padding and border are included in total width and height */  
+    margin: 0;  
+    padding: 0;  
+}  
+
+body {  
+    font-family: 'Arial', sans-serif;  
+    background: linear-gradient(to bottom right, #e0f7fa, #b2ebf2); /* Light blue gradient */  
+}  
+
+header {  
+    background-color: #00796b; /* Dark teal */  
+    color: white; /* White text */  
+    padding: 20px;  
+    text-align: center;  
+}  
+
+.container {  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    height: 100vh;  
+    margin-top: 2%;
+}  
+
+.donation-form {  
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 20px;  
+    border-radius: 10px;  
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);  
+    width: 40%;   
+    height: 95vh;
+    margin-top: 0%;
+}  
+
+h2 {  
+    color: #00796b;
+    margin-bottom: 20px;  
+    text-align: center;  
+}  
+
+label {  
+    margin-top: 15px; /* Space above labels */  
+    display: block; /* Makes labels take the full width */  
+}  
+
+input {  
+    width: 100%; /* Full width */  
+    padding: 10px;  
+    margin-top: 5px; /* Space between label and input */  
+    border: 2px solid #00796b; /* Dark teal border */  
+    border-radius: 5px; /* Rounded corners */  
+    font-size: 1em; /* Consistent text size */  
+}  
+
+.payment-methods {  
+    margin-top: 10px; /* Space above payment methods */  
+    display: flex;
+}  
+
+.payment-methods label {  
+    display: flex; /* Flex display for proper alignment */  
+    align-items: center; /* Center items vertically */  
+    margin-right: 20px; /* Space between radio buttons */  
+}  
+
+.payment-methods input[type="radio"] {  
+    appearance: none; /* Remove default styles */  
+    width: 20px; /* Custom radio button size */  
+    height: 20px; /* Custom radio button size */  
+    border: 2px solid #00796b; /* Dark teal border */  
+    border-radius: 50%; /* Circular shape */  
+    margin-right: 10px; /* Space between radio and label text */  
+    cursor: pointer; /* Pointer cursor */  
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition */  
+}  
+
+.payment-methods input[type="radio"]:checked {  
+    background-color: #00796b; /* Dark teal when checked */  
+    border-color: #004d40; /* Darker shade for border when checked */  
+}  
+
+button.submit {  
+    background-color: #00796b; /* Dark teal */  
+    color: white; /* White text */  
+    border: none; /* No border */  
+    border-radius: 5px; /* Rounded corners */  
+    padding: 10px 20px; /* Comfortable padding */  
+    margin-top: 20px; /* Space above the button */  
+    cursor: pointer; /* Pointer cursor */  
+    font-size: 1em; /* Consistent size */  
+    transition: background-color 0.3s; /* Smooth transition */  
+    width: 100%; /* Full width of button */  
+}  
+
+button.submit:hover {  
+    background-color: #004d40; /* Darker teal on hover */  
+}  
+textarea {  
+    width: 100%; /* Full width */  
+    padding: 10px;  
+    margin-top: 5px; /* Space between label and input */  
+    border: 2px solid #00796b; /* Dark teal border */  
+    border-radius: 5px; /* Rounded corners */  
+    font-size: 1em; /* Consistent text size */  
+}

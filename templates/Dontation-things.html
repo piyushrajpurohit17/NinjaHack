@@ -1,0 +1,47 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Item Donation - NGO</title>  
+    <link rel="stylesheet" href="../static/donaion_things.css"> <!-- Link to your CSS file -->  
+</head>  
+<body>  
+    <header>  
+        <h1>Donate Items, Spread Kindness</h1>  
+    </header>  
+
+    <div class="container">  
+        <div class="donation-form">  
+            <h2>Item Donation Form</h2>  
+            <form>  
+                <label for="name">Donor Name</label>  
+                <input type="text" id="name" placeholder="Enter your name" required>  
+
+                <label for="contact-number">Contact Number</label>  
+                <input type="tel" id="contact-number" placeholder="Enter your contact number" required>  
+
+                <label for="item-description">Item Description</label>  
+                <textarea id="item-description" rows="4" placeholder="Describe the items you would like to donate" required></textarea>  
+
+                <label for="quantity">Quantity</label>  
+                <input type="number" id="quantity" placeholder="Enter quantity" required min="1">  
+
+                <label>Pick Up Method</label>  
+                <div class="pick-up-methods">  
+                    <label class="custom-radio">  
+                        <input type="radio" name="pick-up" value="Self-Delivery" required>  
+                        <span class="radio-label">Self-Delivery</span>  
+                    </label>  
+                    <label class="custom-radio">  
+                        <input type="radio" name="pick-up" value="NGO Pickup">  
+                        <span class="radio-label">NGO Pickup</span>  
+                    </label>  
+                </div>  
+
+                <button  type="submit" class="submit" onclick="alert('Successfully Applied for Donation')">Donate Items</button>  
+            </form>  
+        </div>  
+    </div>  
+</body>  
+</html>

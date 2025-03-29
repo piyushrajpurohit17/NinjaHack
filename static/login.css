@@ -111,10 +111,12 @@
 .loginPage-signin-btn{
     border: none;
     background-color: #084cfc ;
-    padding: 2% 20%;
+    padding: 2% 30%;
     color:white;
     border-radius: 10px;
     justify-content: center;
+    margin-left: 17%;
+    cursor: pointer;
 }
 
 .support {
@@ -126,4 +128,19 @@
     color: #084cfc;
     text-decoration: none;
     font-size: 14px;
+}
+
+.LoginPage-btn{
+   background-color: #084cfc;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+   padding: 2% 5%;
+   width: 100vh;
+   color: white;
+   text-align: center;
+}
+
+.LoginPage-link{
+    text-decoration: none;
 }

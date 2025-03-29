@@ -1,0 +1,77 @@
+* {  
+    box-sizing: border-box; /* Ensures padding and border are included in total width and height */  
+    margin: 0;  
+    padding: 0;  
+}  
+
+body {  
+    font-family: 'Arial', sans-serif;  
+    background: linear-gradient(to bottom right, #e0f7fa, #b2ebf2); /* Soft blue gradient */  
+}  
+
+header {  
+    background-color: #00796b; /* Dark teal color for the header */  
+    color: white; /* White text */  
+    padding: 20px;  
+    text-align: center;  
+}  
+
+.container {  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    height: 100vh; /* Keeps the form vertically centered */  
+    margin-top: 2%;
+}  
+
+.donation-form {  
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */  
+    padding: 20px;  
+    border-radius: 10px; /* Rounded corners */  
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */  
+    width: 40%; /* Max width for the form */  
+      
+}  
+
+h2 {  
+    color: #00796b; /* Dark teal for headings */  
+    margin-bottom: 20px;  
+    text-align: center;  
+}  
+
+label {  
+    margin-top: 15px; /* Space above labels */  
+    display: block; /* Makes labels take the full width */  
+}  
+
+input, textarea {  
+    width: 100%; /* Full width */  
+    padding: 10px;  
+    margin-top: 5px; /* Space between label and input */  
+    border: 2px solid #00796b; /* Dark teal border */  
+    border-radius: 5px; /* Rounded corners */  
+    font-size: 1em; /* Consistent text size */  
+}  
+
+.pick-up-methods {  
+    margin-top: 10px; /* Space above pick-up methods */  
+}  
+
+.custom-radio {  
+    display: flex; /* Flex display for proper alignment */  
+    align-items: center; /* Center items vertically */  
+    flex-direction: row-reverse;
+    margin-right: 20px; /* Space between radio buttons */ 
+    height: 23px; 
+}
+
+.submit{
+    cursor: pointer;
+    padding: 3% 20%;
+    border: none;
+    border-radius: 10px;
+    background-color: #3f51b5;
+    color: white;
+    margin-left: 20%;
+    margin-top: 10%;
+}
